@@ -10,9 +10,9 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class OrderPlacedEvent {
+public class OrderNotificationEvent {
     private UUID orderId;
     private String userId;
     private ZonedDateTime creationDate;
-    private String message;
+    private String status;
 }
